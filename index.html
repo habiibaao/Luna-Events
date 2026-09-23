@@ -1,0 +1,1026 @@
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">
+    </script>
+    <link href="src/all.css" rel="stylesheet" />
+    <link href="images/favicon.png" rel="icon" type="images/png" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Luna Events
+    </title>
+</head>
+
+<body>
+    <header
+        class="w-full h-[72px] sm:h-[76px] md:h-[80px] lg:h-[82px] xl:h-[86px] 2xl:h-[90px] bg-[#FFF9F6] border-b border-[#EADDE6] shadow-lg fixed z-30 top-0 left-0">
+        <div class="parent w-full max-w-[1600px] mx-auto h-full flex flex-row justify-between items-center">
+            <div
+                class="logo w-[130px] sm:w-[145px] md:w-[160px] lg:w-[175px] xl:w-[190px] 2xl:w-[210px] h-full flex justify-center items-center">
+                <img alt="logo" class="scale-95 lg:scale-75 xl:scale-[0.8] 2xl:scale-[0.85] ml-8  drop-shadow-[0_7px_9px_rgba(75,33,66,0.45)]"
+                    src="images/logo.png">
+            </div>
+            <nav class="w-fit h-full hidden md:hidden lg:block ml-auto lg:mr-auto xl:mr-auto 2xl:mr-auto font-['DM_Sans']">
+
+    <ul class="group h-full flex flex-row items-center justify-center md:gap-7 lg:gap-8 xl:gap-10 2xl:gap-12 text-[#0d192b] font-bold md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] tracking-wider">
+
+        <li>
+            <a href="#"
+               class="relative font-['DM_Sans'] text-[#8A4564] transition-all duration-500
+               after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-full after:h-[2px] after:bg-[#8A4564] after:transition-all after:duration-300
+               group-hover:text-[#0d192b] group-hover:after:w-0
+               hover:text-[#8A4564] hover:after:w-full">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="relative font-['DM_Sans'] inline-block hover:scale-110 transition-all duration-500 hover:text-[#8A4564] after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-0 after:h-[2px] after:bg-[#8A4564] after:transition-all after:duration-300 hover:after:w-full">
+                About
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="relative font-['DM_Sans'] transition-all inline-block hover:scale-110 duration-500 hover:text-[#8A4564] after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-0 after:h-[2px] after:bg-[#8A4564] after:transition-all after:duration-300 hover:after:w-full">
+                Services
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="relative font-['DM_Sans'] transition-all inline-block hover:scale-110 duration-500 hover:text-[#8A4564] after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-0 after:h-[2px] after:bg-[#8A4564] after:transition-all after:duration-300 hover:after:w-full">
+                Gallery
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="relative font-['DM_Sans'] transition-all inline-block hover:scale-110 duration-500 hover:text-[#8A4564] after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-0 after:h-[2px] after:bg-[#8A4564] after:transition-all after:duration-300 hover:after:w-full">
+                Team
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="relative font-['DM_Sans'] transition-all inline-block duration-500 hover:scale-110 hover:text-[#8A4564] after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-0 after:h-[2px] after:bg-[#8A4564] after:transition-all after:duration-300 hover:after:w-full">
+                Contact
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+            <div class="lines flex flex-col gap-[5px] mr-5 lg:hidden cursor-pointer">
+                    <div class="w-[25px] h-[2px] bg-[#4b1e39]">
+                    </div>
+                    <div class="w-[25px] h-[2px] bg-[#4b1e39]">
+                    </div>
+                    <div class="w-[25px] h-[2px] bg-[#4b1e39]">
+                    </div>
+            </div>
+            <button class="font-['DM_Sans'] cursor-pointer hidden lg:block text-[15px] w-[200px] h-[45px] bg-[#8a4564] text-[#f7eaf2] font-[600] tracking-wider rounded-[30px] mr-5
+            hover:bg-[#A45B7B] hover:shadow-[0_0_12px_rgba(168,111,142,0.55),0_0_28px_rgba(183,132,196,0.30)] hover:scale-103 duration-500">Plan Your Event</button>
+        </div>
+    </header>
+    <section
+        class="sec1 relative w-full min-h-screen pt-[72px] sm:pt-[76px] md:pt-[80px] lg:pt-[82px] lg:pr-5 xl:pt-[100px] 2xl:pt-[100px] xl:px-18 2xl:px-10 bg-[radial-gradient(circle_at_15%_20%,rgba(255,255,255,0.95)_0%,rgba(255,249,246,0.75)_28%,transparent_50%),radial-gradient(circle_at_85%_30%,rgba(220,201,232,0.55)_0%,transparent_42%),linear-gradient(135deg,#FFF9F6_0%,#F8E7EE_48%,#E7D8EF_100%)]">
+        <div class="w-full max-w-[1550px] mx-auto lg:grid lg:grid-cols-2 lg:items-center lg:gap-8 xl:gap-10 2xl:gap-16">
+            <div class="content relative z-20 px-6 pt-5 sm:px-8 md:px-8 lg:px-10 lg:py-10 xl:px-12 2xl:px-16 2xl:py-14">
+                <p
+                    class="font-['Playfair_Display'] text-[10px] lg:text-[11px] xl:text-[15px] 2xl:text-[13px] uppercase tracking-[0.25em] text-[#833560] font-extrabold mt-5 [text-shadow:0_0_20px_rgba(168,111,142,0.8)]">
+                    Event Planning Studio
+                </p>
+                <div class="mt-3">
+                    <h2
+                        class="font-['Playfair_Display'] text-[38px] sm:text-[40px] lg:text-[45px] xl:text-[54px] 2xl:text-[62px] text-[#241B27] capitalize leading-[1.1] tracking-wider font-medium [text-shadow:0_3px_7px_rgba(36,27,39,0.20)]">
+                        We Create
+                    </h2>
+                    <h2
+                        class="font-['Playfair_Display'] text-[35px] sm:text-[37px] lg:text-[42px] xl:text-[50px] 2xl:text-[58px] text-[#A86F8E] italic capitalize leading-[1.1] tracking-wider font-bold [text-shadow:0_0_4px_rgba(168,111,142,0.58)]">
+                        Magical Moments
+                    </h2>
+                    <h2
+                        class="font-['Playfair_Display'] text-[32px] sm:text-[34px] lg:text-[38px] xl:text-[46px] 2xl:text-[53px] text-[#241B27] capitalize leading-[1.1] tracking-wider font-medium [text-shadow:0_3px_7px_rgba(36,27,39,0.20)]">
+                        For Your Special Day
+                    </h2>
+                </div>
+                <p
+                    class="text-[14px] lg:text-[14px] xl:text-[16px] 2xl:text-[17px] text-[#746D77] font-['DM_Sans'] tracking-wider mt-8 leading-6 lg:w-[95%] xl:w-[90%] 2xl:w-[85%] [text-shadow:0_2px_3px_rgba(75,33,66,0.14)] font-medium">
+                    From dream weddings and intimate birthdays to unforgettable corporate events,
+                    we bring your vision to life with creativity, care, and flawless execution.
+                </p>
+                <div
+                    class="list flex flex-col items-start w-full mt-8 gap-7 md:flex-row md:items-center md:gap-6 lg:gap-3 xl:gap-3 2xl:gap-7">
+                    <div class="ob1 flex items-center gap-2 2xl:shrink-0">
+                        <div
+                            class="size-[35px] xl:size-[38px] 2xl:size-[42px] shrink-0 bg-[#edd4de] rounded-full flex justify-center items-center shadow-[0_5px_14px_rgba(138,69,100,0.22)]">
+                            <i
+                                class="fa-regular fa-heart fa-beat-fade text-[#8a4564] text-[15px] xl:text-[16px] 2xl:text-[18px] drop-shadow-[0_0_6px_rgba(168,111,142,0.60)]">
+                            </i>
+                        </div>
+                        <span
+                            class="text-[15px] lg:text-[12px] xl:text-[15px] 2xl:text-[14px] font-['DM_Sans'] font-light [text-shadow:0_2px_3px_rgba(75,33,66,0.16)] text-[#3f0851]">
+                            +8 Years Experience
+                        </span>
+                    </div>
+                    <div class="ob2 flex items-center gap-2 2xl:shrink-0">
+                        <div
+                            class="size-[35px] xl:size-[38px] 2xl:size-[42px] shrink-0 bg-[#edd4de] rounded-full flex justify-center items-center shadow-[0_5px_14px_rgba(138,69,100,0.22)]">
+                            <i
+                                class="fa-solid fa-users fa-beat-fade text-[#8a4564] text-[15px] xl:text-[16px] 2xl:text-[18px] drop-shadow-[0_0_6px_rgba(168,111,142,0.60)]">
+                            </i>
+                        </div>
+                        <span
+                            class="text-[15px] lg:text-[12px] xl:text-[15px] 2xl:text-[14px] font-['DM_Sans'] font-light [text-shadow:0_2px_3px_rgba(75,33,66,0.16)] text-[#3f0851]">
+                            +500 Happy Clients
+                        </span>
+                    </div>
+                    <div class="ob3 flex items-center gap-2 2xl:shrink-0">
+                        <div
+                            class="size-[35px] xl:size-[38px] 2xl:size-[42px] shrink-0 bg-[#edd4de] rounded-full flex justify-center items-center shadow-[0_5px_14px_rgba(138,69,100,0.22)]">
+                            <i
+                                class="fa-regular fa-star fa-beat-fade text-[#8a4564] text-[15px] xl:text-[16px] 2xl:text-[18px] drop-shadow-[0_0_6px_rgba(168,111,142,0.60)]">
+                            </i>
+                        </div>
+                        <span
+                            class="text-[15px] lg:text-[12px] xl:text-[15px] 2xl:text-[14px] font-['DM_Sans'] font-light [text-shadow:0_2px_3px_rgba(75,33,66,0.16)] text-[#3f0851]">
+                            Professional Planners
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 mt-9 md:flex-row lg:gap-3 xl:gap-4 2xl:gap-5">
+                    <button
+                        class="bg-[#8a4564] font-['DM_Sans'] h-[45px] 2xl:h-[50px] w-[90%] mx-auto rounded-full text-center text-[15px] text-white md:w-auto md:px-8 md:mx-0 lg:px-6 lg:text-[13px] xl:px-8 xl:text-[15px] 2xl:px-10 2xl:text-[16px] shadow-[0_7px_18px_rgba(138,69,100,0.30)] font-bold [word-spacing:2px] tracking-wide cursor-pointer duration-700
+    lg:hover:-translate-y-2 lg:hover:scale-101 hover:bg-[#A45B7B] hover:shadow-[0_0_12px_rgba(168,111,142,0.55),0_0_28px_rgba(183,132,196,0.30)]">
+                        Start Planning Now →
+                    </button>
+                    <button
+                        class="h-[45px] font-['DM_Sans'] 2xl:h-[50px] w-[90%] mx-auto bg-[#f7eaf2] border-[2px] border-[#8a4564] rounded-full text-[#4B2142] md:w-auto md:px-8 md:mx-0 lg:px-6 lg:text-[13px] xl:px-8 xl:text-[15px] 2xl:px-10 2xl:text-[16px] shadow-[0_7px_18px_rgba(138,69,100,0.30)] font-bold [word-spacing:2px] tracking-wide cursor-pointer duration-700
+    lg:hover:-translate-y-2 lg:hover:scale-101 hover:bg-[#FFF9F6] hover:border-[#D5AC72] hover:text-[#8A4564] hover:shadow-[0_0_16px_rgba(213,172,114,0.35)]">
+                        <i class="fa-regular fa-circle-play mr-2">
+                        </i>
+                        Watch Our Story
+                    </button>
+                </div>
+            </div>
+            <div class="relative lg:hover:-translate-y-3 lg:hover:scale-101  duration-700">
+            <div class="group relative w-full h-[280px] sm:h-[330px] mt-10 lg:mt-0 xl:mt-15 lg:h-[440px] xl:h-[500px] 2xl:h-[540px] overflow-hidden rounded-t-[20%] lg:rounded-t-[16%] lg:rounded-b-[16%] shadow-[0_6px_20px_rgba(75,33,66,0.22)]
+                 ">
+                <img alt="event" class="w-full h-full object-cover duration-500
+                 lg:group-hover:blur-[1.5px]" src="images/img1.png">
+                <div
+                    class="absolute top-[45px] right-[22px] lg:top-[65px] lg:right-[0px] 2xl:top-[80px] 2xl:right-[40px] text-right text-white font-['Allura'] text-[34px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px] leading-[1.05] drop-shadow-lg">
+                    <p
+                        class="[text-shadow:0_0_12px_rgba(255,255,255,0.9)] duration-700 opacity-0
+                         lg:group-hover:[text-shadow:0_0_4px_#ffffff,0_0_8px_#ffffff,0_0_14px_#f7d9e8,0_0_22px_#d89ab8,0_0_32px_#a86f8e] lg:group-hover:-translate-x-20 lg:group-hover:translate-y-10 lg:group-hover:opacity-100">
+                        More than
+                        <br>
+                        events ♡
+                    </p>
+                </div>
+                <div
+                    class="absolute bottom-0 left-0 z-10 w-full h-[135px] bg-[linear-gradient(to_bottom,transparent_0%,rgba(248,221,232,0.05)_20%,rgba(248,221,232,0.25)_45%,rgba(248,221,232,0.65)_70%,#F8DDE8_100%)]">
+                </div>
+
+            </div>
+            <div class="note hidden lg:block w-[140px] h-[140px] bg-[#FFF9F6]/85 border border-[#E8C8D4] absolute bottom-0 -left-10 z-20 -rotate-10
+            shadow-[0_14px_35px_rgba(75,33,66,0.28)] hover:scale-105 duration-700 hover:-translate-y-5 skew-y-3">
+                <div class=" w-[120px] h-[120px] bg-[#faece8] shadow-[inset_0_0_14px_rgba(122,54,88,0.25),inset_0_0_28px_rgba(168,111,142,0.15)] m-auto mt-2 relative">
+                    <div class="content flex flex-col justify-center items-center pt-2">
+                         <i class="fa-solid fa-users  text-[#B44E79] text-[20px] drop-shadow-[0_0_5px_rgba(180,78,121,0.30)]"></i>
+                         <h2 class="font-['DM_Sans'] font-bold lg:text-[15px] text-[#6F294E] leading-none mt-3">
+                            500+
+                        </h2>
+
+                        <p class="font-['Allura'] lg:text-[20px]  font-bold  text-[#8A4564] mt-2 text-center leading-5">
+                            Stories Celebrated
+                        </p>
+                    </div>
+                    <img src="images/tap.png" class="scale-40 absolute bottom-0 top-0 opacity-90 rotate-6 -translate-y-8 right-2 drop-shadow-[0_0_5px_rgba(180,78,121,0.30)]
+                    shadow-[0_3px_6px_rgba(120,95,80,0.16)]" alt="">
+                    <img src="images/flower.png" class="scale-40 absolute bottom-0 top-0 -translate-y-20 right-13 drop-shadow-[0_4px_6px_rgba(160,120,90,0.18)]" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section
+        class="sec2 relative overflow-hidden w-full h-auto py-16 md:py-20 lg:py-24 xl:py-28 2xl:py-32 bg-[radial-gradient(circle_at_10%_15%,rgba(255,255,255,0.95)_0%,transparent_30%),radial-gradient(circle_at_92%_28%,rgba(183,132,196,0.38)_0%,transparent_34%),linear-gradient(155deg,#FFF9F6_0%,#F8DDE8_48%,#E7D8EF_95%)]">
+        <div
+            class="content max-w-[1550px] mx-auto flex flex-col justify-center items-center px-5 md:px-8 lg:px-10 xl:px-12 2xl:px-16">
+            <h2
+                class="relative font-['DM_Sans'] [text-shadow:0_2px_4px_rgba(138,69,100,0.26)] text-[12px] md:text-[13px] lg:text-[14px] 2xl:text-[15px] tracking-[.15em] font-[650] text-[#8A4564] pb-4 after:content-[''] after:absolute after:h-[2px] after:w-[30px] md:after:w-[40px] after:bg-linear-to-r after:from-[#8A4564] after:to-transparent after:left-full after:ml-3 after:top-2.5 before:content-[''] before:absolute before:h-[2px] before:w-[30px] md:before:w-[40px] before:bg-linear-to-l before:from-[#8A4564] before:to-transparent before:right-full before:mr-3 before:top-2.5">
+                OUR SERVICES
+            </h2>
+            <div class="text-center">
+                <h2
+                    class="font-['Playfair_Display'] [text-shadow:0_3px_7px_rgba(36,27,39,0.20)] font-[700] leading-[1.1] text-[30px] md:text-[36px] lg:text-[42px] xl:text-[46px] 2xl:text-[52px] tracking-[1.5px] text-[#241B27]">
+                    Designed for
+                </h2>
+                <h2
+                    class="font-['Playfair_Display'] [text-shadow:0_0_13px_rgba(169,112,143,0.58)] font-[700] text-[33px] md:text-[39px] lg:text-[45px] xl:text-[49px] 2xl:text-[55px] italic text-[#a9708f] tracking-[1.5px] leading-[1.1]">
+                    Every Celebration
+                </h2>
+            </div>
+            <p
+                class="text-center font-['DM_Sans'] [text-shadow:0_2px_3px_rgba(75,33,66,0.14)] text-[14px] md:text-[15px] lg:text-[16px] 2xl:text-[17px] text-[#746D77] pt-4 leading-[1.7] font-[600] w-[90%] md:w-[70%] lg:w-[55%] xl:w-[45%] 2xl:w-[40%]">
+                From intimate gatherings to grand celebrations,
+                we offer a full range of event planning services
+                tailored to your unique story.
+            </p>
+        </div>
+
+        <div
+            class="cards w-full max-w-[1250px] xl:max-w-[1350px] 2xl:max-w-[1500px] mx-auto px-4 md:px-7 lg:px-7 xl:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 lg:gap-5 xl:gap-10 2xl:gap-12 mt-12 lg:mt-[60px] xl:mt-16 2xl:mt-20 2xl:px-15">
+
+            <div
+                class="card1 group w-full h-[170px] md:h-[350px] lg:h-[370px] xl:h-[390px] 2xl:h-[420px] bg-[linear-gradient(135deg,rgba(255,255,255,0.72),rgba(248,221,232,0.78))] border border-white/70 shadow-[0_10px_28px_rgba(75,33,66,0.18)] rounded-2xl flex justify-start items-center md:flex-col md:items-start gap-5 p-3 md:p-6 xl:p-7 2xl:p-8 transition-all duration-500
+                  hover:-translate-y-4 hover:scale-[1.02] hover:border-[#D7A3BB] hover:shadow-[0_18px_35px_rgba(75,33,66,0.25),0_0_22px_rgba(168,111,142,0.42),0_0_45px_rgba(183,132,196,0.25)]">
+
+                <div
+                    class="icon shadow-[0_5px_16px_rgba(139,55,96,0.22)] w-[90px] h-[90px] md:w-[72px] md:h-[72px] xl:w-[80px] xl:h-[80px] 2xl:w-[88px] 2xl:h-[88px] shrink-0 bg-[#f5dbe3] rounded-3xl md:rounded-2xl flex justify-center items-center relative transition-all duration-500
+                      group-hover:scale-110 group-hover:-translate-y-1 group-hover:rotate-[5deg] group-hover:shadow-[0_0_10px_rgba(255,255,255,0.9),0_0_20px_rgba(168,111,142,0.55),0_0_32px_rgba(183,132,196,0.30)]">
+
+                    <img alt=""
+                        class="absolute w-[30px] md:w-[34px] xl:w-[38px] 2xl:w-[42px] -right-4 -top-4 opacity-60 rotate-[18deg] transition-all duration-500
+                       group-hover:scale-125 group-hover:rotate-[25deg] group-hover:opacity-100 group-hover:drop-shadow-[0_0_8px_rgba(168,111,142,0.45)]"
+                        src="images/decorsec2.png">
+
+                    <img alt=""
+                        class="absolute w-[24px] md:w-[28px] xl:w-[31px] 2xl:w-[34px] -left-3 -bottom-3 opacity-40 rotate-[195deg] transition-all duration-500
+                         group-hover:scale-125 group-hover:-rotate-[20deg] group-hover:opacity-100 group-hover:drop-shadow-[0_0_8px_rgba(183,132,196,0.45)]"
+                        src="images/decorsec2.png">
+
+                    <i class="fa-solid fa-ring fa-beat-fade relative z-10 text-[40px] drop-shadow-[0_2px_3px_rgba(139,55,96,0.18)] md:text-[31px] xl:text-[35px] 2xl:text-[39px] text-[#8b3760] transition-all duration-500
+                      group-hover:text-[#B45F86] group-hover:scale-115 group-hover:drop-shadow-[0_0_8px_rgba(168,111,142,0.85)]">
+                    </i>
+                </div>
+
+                <div class="content w-[50%] md:w-full">
+                    <h2
+                        class="font-['Playfair_Display'] font-[700] [text-shadow:0_2px_4px_rgba(139,55,96,0.22)] text-[25px] md:text-[24px] lg:text-[26px] xl:text-[28px] 2xl:text-[30px] tracking-[1.5px] text-[#8b3760] pb-2 transition-all duration-500
+                          group-hover:text-[#9D5275] group-hover:[text-shadow:0_0_5px_rgba(255,255,255,0.9),0_0_10px_rgba(168,111,142,0.50)]">
+                        Weddings
+                    </h2>
+                    <p
+                        class="font-['DM_Sans'] text-[14px] tracking-wider [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] md:text-[16px] md:pb-5 lg:text-[14px] xl:text-[15px] 2xl:text-[16px] text-[#746D77] font-[600] leading-5 md:leading-6 ">
+                        A celebration of love, crafted down to the finest detail.
+                    </p>
+                    <div class="leading-8 2xl:text-[15px]">
+                        <p
+                            class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            Venue Planning
+                        </p>
+                        <p class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            Design & Styling
+                        </p>
+                        <p class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            Day-of Coordination
+                        </p>
+                    </div>
+                </div>
+                <button
+                    class="text-[#f5dbe3] rounded-full md:hidden size-10 shrink-0 bg-[#8b3760] text-[28px] flex justify-center items-center ml-auto mr-1">
+                    <p class="mb-1">
+                        →
+                    </p>
+                </button>
+            </div>
+
+            <div
+                class="card2 group w-full h-[170px] md:h-[350px] lg:h-[370px] xl:h-[390px] 2xl:h-[420px] bg-[linear-gradient(135deg,rgba(255,255,255,0.72),rgba(248,221,232,0.78))] border border-white/70 shadow-[0_10px_28px_rgba(75,33,66,0.18)] rounded-2xl flex justify-start items-center md:flex-col md:items-start gap-5 p-3 md:p-6 xl:p-7 2xl:p-8 transition-all duration-500
+                  hover:-translate-y-4 hover:scale-[1.02] hover:border-[#D7A3BB] hover:shadow-[0_18px_35px_rgba(75,33,66,0.25),0_0_22px_rgba(168,111,142,0.42),0_0_45px_rgba(183,132,196,0.25)]">
+                <div
+                    class="icon  shadow-[0_5px_16px_rgba(139,55,96,0.22)] w-[90px] h-[90px] md:w-[72px] md:h-[72px] xl:w-[80px] xl:h-[80px] 2xl:w-[88px] 2xl:h-[88px] shrink-0 bg-[#f5dbe3] rounded-3xl md:rounded-2xl flex justify-center items-center relative transition-all duration-500
+                     group-hover:scale-110 group-hover:-translate-y-1 group-hover:rotate-[5deg] group-hover:shadow-[0_0_10px_rgba(255,255,255,0.9),0_0_20px_rgba(168,111,142,0.55),0_0_32px_rgba(183,132,196,0.30)]">
+                    <img alt=""
+                        class="absolute w-[30px] md:w-[34px] xl:w-[38px] 2xl:w-[42px] -right-4 -top-4 opacity-60 rotate-[18deg] transition-all duration-500
+                          group-hover:scale-125 group-hover:rotate-[25deg] group-hover:opacity-100 group-hover:drop-shadow-[0_0_8px_rgba(168,111,142,0.45)]"
+                        src="images/decorsec2.png">
+                    <img alt=""
+                        class="absolute w-[24px] md:w-[28px] xl:w-[31px] 2xl:w-[34px] -left-3 -bottom-3 opacity-40 rotate-[195deg] transition-all duration-500
+                         group-hover:scale-125 group-hover:-rotate-[20deg] group-hover:opacity-100 group-hover:drop-shadow-[0_0_8px_rgba(183,132,196,0.45)]"
+                        src="images/decorsec2.png">
+                    <i class="fa-solid fa-cake-candles fa-beat-fade relative drop-shadow-[0_2px_3px_rgba(139,55,96,0.18)] z-10 text-[40px] md:text-[31px] xl:text-[35px] 2xl:text-[39px] text-[#8b3760] transition-all duration-500
+                     group-hover:text-[#B45F86] group-hover:scale-115 group-hover:drop-shadow-[0_0_8px_rgba(168,111,142,0.85)]">
+                    </i>
+                </div>
+                <div class="content w-[50%] md:w-full">
+                    <h2
+                        class="font-['Playfair_Display'] font-[700] [text-shadow:0_2px_4px_rgba(139,55,96,0.22)] text-[25px] md:text-[24px] lg:text-[26px] xl:text-[28px] 2xl:text-[30px] tracking-[1.2px] text-[#8b3760] pb-2 transition-all duration-500
+                          group-hover:text-[#9D5275] group-hover:[text-shadow:0_0_5px_rgba(255,255,255,0.9),0_0_10px_rgba(168,111,142,0.50)]">
+                        Birthdays
+                    </h2>
+                    <p
+                        class="font-['DM_Sans'] text-[14px] tracking-wider md:text-[16px] [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] md:pb-9 lg:text-[14px] xl:text-[15px] 2xl:text-[16px] text-[#746D77] font-[600] leading-5 md:leading-6">
+                        Make every birthday unforgettable.
+                    </p>
+                    <div class="leading-8 2xl:text-[15px]">
+                        <p class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            Custom Themes
+                        </p>
+                        <p class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            Vendor Coordination
+                        </p>
+                        <p class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105    ">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            Stress-Free Planning
+                        </p>
+                    </div>
+                </div>
+                <button
+                    class="text-[#f5dbe3] md:hidden rounded-full size-10 shrink-0 bg-[#8b3760] text-[28px] flex justify-center items-center ml-auto mr-1">
+                    <p class="mb-1">
+                        →
+                    </p>
+                </button>
+            </div>
+            <div
+                class="card3 group w-full h-[170px] md:h-[350px] lg:h-[370px] xl:h-[390px] 2xl:h-[420px] md:col-span-2 lg:col-span-1 md:w-[48%] lg:w-full md:mx-auto bg-[linear-gradient(135deg,rgba(255,255,255,0.72),rgba(248,221,232,0.78))] border border-white/70 shadow-[0_10px_28px_rgba(75,33,66,0.18)] rounded-2xl flex justify-start items-center md:flex-col md:items-start gap-5 p-3 md:p-6 xl:p-7 2xl:p-8 transition-all duration-500
+                 hover:-translate-y-4 hover:scale-[1.02] hover:border-[#D7A3BB] hover:shadow-[0_18px_35px_rgba(75,33,66,0.25),0_0_22px_rgba(168,111,142,0.42),0_0_45px_rgba(183,132,196,0.25)]">
+                <div
+                    class="icon shadow-[0_5px_16px_rgba(139,55,96,0.22)] w-[90px] h-[90px] md:w-[72px] md:h-[72px] xl:w-[80px] xl:h-[80px] 2xl:w-[88px] 2xl:h-[88px] shrink-0 bg-[#f5dbe3] rounded-3xl md:rounded-2xl flex justify-center items-center relative transition-all duration-500
+                     group-hover:scale-110 group-hover:-translate-y-1 group-hover:rotate-[5deg] group-hover:shadow-[0_0_10px_rgba(255,255,255,0.9),0_0_20px_rgba(168,111,142,0.55),0_0_32px_rgba(183,132,196,0.30)]">
+                    <img alt=""
+                        class="absolute w-[30px] md:w-[34px] xl:w-[38px] 2xl:w-[42px] -right-4 -top-4 opacity-60 rotate-[18deg] transition-all duration-500
+                         group-hover:scale-125 group-hover:rotate-[25deg] group-hover:opacity-100 group-hover:drop-shadow-[0_0_8px_rgba(168,111,142,0.45)]"
+                        src="images/decorsec2.png">
+                    <img alt=""
+                        class="absolute w-[24px] md:w-[28px] xl:w-[31px] 2xl:w-[34px] -left-3 -bottom-3 opacity-40 rotate-[195deg] transition-all duration-500
+                         group-hover:scale-125 group-hover:-rotate-[20deg] group-hover:opacity-100 group-hover:drop-shadow-[0_0_8px_rgba(183,132,196,0.45)]"
+                        src="images/decorsec2.png">
+                    <i class="fa-solid fa-briefcase fa-beat-fade relative z-10 drop-shadow-[0_2px_3px_rgba(139,55,96,0.18)] text-[40px] md:text-[31px] xl:text-[35px] 2xl:text-[39px] text-[#8b3760] transition-all duration-500
+                     group-hover:text-[#B45F86] group-hover:scale-115 group-hover:drop-shadow-[0_0_8px_rgba(168,111,142,0.85)]">
+                    </i>
+                </div>
+                <div class="content w-[54.9%] md:w-full">
+                    <h2
+                        class="font-['Playfair_Display'] font-[700] [text-shadow:0_2px_4px_rgba(139,55,96,0.22)] text-[23px] md:text-[24px] lg:text-[26px] xl:text-[28px] 2xl:text-[30px] tracking-[1.2px] text-[#8b3760] pb-2 transition-all duration-500
+                      group-hover:text-[#9D5275] group-hover:[text-shadow:0_0_5px_rgba(255,255,255,0.9),0_0_10px_rgba(168,111,142,0.50)]">
+                        Corporate Events
+                    </h2>
+                    <p
+                        class="font-['DM_Sans'] tracking-wider text-[14px] md:text-[16px] md:pb-5 [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] text-[#746D77] font-[600] leading-5 md:leading-6">
+                        Professional events with a personal touch.
+                    </p>
+                    <div class="leading-8 2xl:text-[15px]">
+                        <p class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            Event Strategy
+                        </p>
+                        <p class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105    ">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            On-site Management
+                        </p>
+                        <p class="hidden md:block font-['DM_Sans'] tracking-wider font-medium [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[#4F3442] hover:translate-x-5 duration-700 hover:text-[#C45F86] hover:scale-105">
+                            <i class="fa-solid fa-circle-check pr-2 text-[#8b3760] transition-all duration-300
+                             group-hover:text-[#C45F86] group-hover:scale-110 group-hover:drop-shadow-[0_0_6px_rgba(183,132,196,0.65)]">
+                            </i>
+                            Branded Experiences
+                        </p>
+                    </div>
+                </div>
+                <button
+                    class="text-[#f5dbe3] md:hidden rounded-full size-10 shrink-0 bg-[#8b3760] text-[28px] flex justify-center items-center ml-auto mr-1">
+                    <p class="mb-1">
+                        →
+                    </p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section
+        class="sec3 relative w-full h-[900px] sm:h-[880px] md:h-[620px] lg:h-[380px] xl:h-[410px] 2xl:h-[440px] -mt-[1px] overflow-hidden lg:border-t-2 border-t-[#D6A66F] lg:border-b-2 border-b-[#D6A66F]">
+        <div
+            class="parent relative w-full h-full bg-[url('images/sec3phonebg2.png')] md:bg-[url('images/sec3tabbg.png')] lg:bg-[url('images/sec3lgbg.png')] bg-center bg-cover bg-no-repeat md:bg-[length:100%_100%] lg:bg-cover">
+            <div
+                class="lg:hidden absolute top-0 left-0 w-full h-[110px] md:h-[120px] bg-[linear-gradient(to_bottom,#E7D8EF_0%,rgba(231,216,239,0.88)_20%,rgba(238,222,235,0.55)_45%,rgba(245,228,236,0.20)_70%,transparent_100%)]">
+            </div>
+            <div
+                class="lg:hidden absolute bottom-0 left-0 w-full h-[110px] md:h-[140px] lg:h-[170px] bg-[linear-gradient(to_top,#eacdd6_0%,rgba(246,222,222,0.5)_70%,transparent_100%)]">
+            </div>
+            <div
+                class="content relative z-10 w-full h-full flex flex-col items-center justify-start pt-30 gap-[60px] md:grid md:grid-cols-2 md:grid-rows-2 md:w-[88%] md:h-[390px] md:mx-auto md:pt-0 md:gap-0 md:translate-y-[115px] lg:grid-cols-4 lg:grid-rows-1 lg:w-[94%] lg:max-w-[1180px] lg:h-[210px] lg:translate-y-[85px] xl:w-[92%] xl:max-w-[1380px] xl:h-[230px] xl:translate-y-[90px] 2xl:w-[90%] 2xl:max-w-[1550px] 2xl:h-[250px] 2xl:translate-y-[95px]">
+                <div class="div1 group w-[260px] sm:w-[300px] h-[120px]  bg-[#FFF9F6]/65 rounded-3xl border border-white/80 shadow-[0_5px_17px_rgba(139,55,96,0.24)] flex justify-center items-center gap-5 md:w-full md:h-full md:bg-transparent md:rounded-none md:shadow-none md:border-0 md:border-r md:border-b md:border-[#D6A66F] md:px-8 md:gap-5 lg:border-b-0 lg:px-4 lg:gap-4 xl:px-6 xl:gap-5 2xl:px-8 2xl:gap-6 transition-all duration-500
+                  hover:-translate-y-2 md:hover:translate-y-0 lg:hover:-translate-y-2">
+                    <div
+                        class="icondiv size-[74px] shrink-0 rounded-full bg-[#FBE8ED]/75 border border-[#D6A66F]/70 shadow-[0_0_20px_rgba(168,111,142,0.45)] flex justify-center items-center md:size-[80px] lg:size-[72px] xl:size-[82px] 2xl:size-[90px] transition-all duration-500
+                         group-hover:bg-[#F4D8E4] group-hover:border-[#C5658F] group-hover:shadow-[0_0_14px_rgba(197,101,143,0.65),0_0_28px_rgba(197,101,143,0.35)] group-hover:scale-110">
+                        <i class="fa-regular fa-heart text-[35px] md:text-[37px] lg:text-[32px] xl:text-[37px] 2xl:text-[41px] text-[#8B3760] transition-all duration-500
+                     group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)] group-hover:scale-110">
+                        </i>
+                    </div>
+                    <div class="text flex flex-col justify-center items-center md:items-start">
+                        <h2 class="font-['Playfair_Display'] [text-shadow:0_0_11px_rgba(168,111,142,0.54)] text-[40px] md:text-[42px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-semibold text-[#7E214D] leading-none transition-all duration-500
+                            group-hover:scale-110 group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)]">
+                            +500
+                        </h2>
+                        <p class="font-['Playfair_Display'] [text-shadow:0_0_11px_rgba(168,111,142,0.54)] text-[12px] font-semibold uppercase tracking-[0.16em] text-[#5E4350] mt-2 md:font-['DM_Sans'] md:text-[14px] md:font-bold md:normal-case md:tracking-wider md:text-[#7E214D] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] transition-all duration-500
+                        group-hover:scale-110 group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)]">
+                            Happy Clients
+                        </p>
+                    </div>
+                </div>
+                <div class="div2 group w-[260px] sm:w-[300px] h-[120px] bg-[#FFF9F6]/65 rounded-3xl border border-white/80 shadow-[0_8px_24px_rgba(108,61,91,0.10)] flex justify-center items-center gap-5 md:w-full md:h-full md:bg-transparent md:rounded-none md:shadow-none md:border-0 md:border-b md:border-[#D6A66F] md:px-8 md:gap-5 lg:border-b-0 lg:border-r lg:px-4 lg:gap-4 xl:px-6 xl:gap-5 2xl:px-8 2xl:gap-6 transition-all duration-500
+                          hover:-translate-y-2 md:hover:translate-y-0 lg:hover:-translate-y-2">
+                    <div
+                        class="icondiv size-[74px] shrink-0 rounded-full bg-[#FBE8ED]/75 border border-[#D6A66F]/70 shadow-[0_0_20px_rgba(168,111,142,0.45)] flex justify-center items-center md:size-[80px] lg:size-[72px] xl:size-[82px] 2xl:size-[90px] transition-all duration-500
+                     group-hover:bg-[#F4D8E4] group-hover:border-[#C5658F] group-hover:shadow-[0_0_14px_rgba(197,101,143,0.65),0_0_28px_rgba(197,101,143,0.35)] group-hover:scale-110">
+                        <i class="fa-regular fa-calendar-days text-[35px] md:text-[37px] lg:text-[32px] xl:text-[37px] 2xl:text-[41px] text-[#8B3760] transition-all duration-500
+                         group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)] group-hover:scale-110">
+                        </i>
+                    </div>
+                    <div class="text flex flex-col justify-center items-center md:items-start">
+                        <h2 class="font-['Playfair_Display'] [text-shadow:0_0_11px_rgba(168,111,142,0.54)] text-[40px] md:text-[42px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-semibold text-[#7E214D] leading-none transition-all duration-500
+                          group-hover:scale-110 group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)]">
+                            +1000
+                        </h2>
+                        <p class="font-['Playfair_Display'] [text-shadow:0_0_11px_rgba(168,111,142,0.54)] text-[12px] font-semibold uppercase tracking-[0.16em] text-[#5E4350] mt-2 md:font-['DM_Sans'] md:text-[14px] md:font-bold md:normal-case md:tracking-wider md:text-[#7E214D] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] transition-all duration-500
+                             group-hover:scale-110 group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)]">
+                            Events Planned
+                        </p>
+                    </div>
+                </div>
+                <div class="div3 group w-[260px] sm:w-[300px] h-[120px] bg-[#FFF9F6]/65 rounded-3xl border border-white/80 shadow-[0_8px_24px_rgba(108,61,91,0.10)] flex justify-center items-center gap-5 md:w-full md:h-full md:bg-transparent md:rounded-none md:shadow-none md:border-0 md:border-r md:border-[#D6A66F] md:px-8 md:gap-5 lg:px-4 lg:gap-4 xl:px-6 xl:gap-5 2xl:px-8 2xl:gap-6 transition-all duration-500
+                    hover:-translate-y-2 md:hover:translate-y-0 lg:hover:-translate-y-2">
+                    <div
+                        class="icondiv size-[74px] shrink-0 rounded-full bg-[#FBE8ED]/75 border border-[#D6A66F]/70 shadow-[0_0_20px_rgba(168,111,142,0.45)] flex justify-center items-center md:size-[80px] lg:size-[72px] xl:size-[82px] 2xl:size-[90px] transition-all duration-500
+                         group-hover:bg-[#F4D8E4] group-hover:border-[#C5658F] group-hover:shadow-[0_0_14px_rgba(197,101,143,0.65),0_0_28px_rgba(197,101,143,0.35)] group-hover:scale-110">
+                        <i class="fa-solid fa-users text-[35px] md:text-[37px] lg:text-[32px] xl:text-[37px] 2xl:text-[41px] text-[#8B3760] transition-all duration-500
+                       group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)] group-hover:scale-110">
+                        </i>
+                    </div>
+                    <div class="text flex flex-col justify-center items-center md:items-start">
+                        <h2 class="font-['Playfair_Display'] [text-shadow:0_0_11px_rgba(168,111,142,0.54)] text-[40px] md:text-[42px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-semibold text-[#7E214D] leading-none transition-all duration-500
+                          group-hover:scale-110 group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)]">
+                            +50
+                        </h2>
+                        <p class="font-['Playfair_Display'] [text-shadow:0_0_11px_rgba(168,111,142,0.54)] text-[10px] font-semibold uppercase tracking-[0.16em] text-[#5E4350] mt-2 md:font-['DM_Sans'] md:text-[14px] md:font-bold md:tracking-wider md:normal-case md:text-[#7E214D] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] transition-all duration-500
+                             group-hover:scale-110 group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)]">
+                            Trusted Vendors
+                        </p>
+                    </div>
+                </div>
+                <div class="div4 group w-[260px] sm:w-[300px] h-[120px] bg-[#FFF9F6]/65 rounded-3xl border border-white/80 shadow-[0_8px_24px_rgba(108,61,91,0.10)] flex justify-center items-center gap-5 md:w-full md:h-full md:bg-transparent md:rounded-none md:shadow-none md:border-0 md:px-8 md:gap-5 lg:px-4 lg:gap-4 xl:px-6 xl:gap-5 2xl:px-8 2xl:gap-6 transition-all duration-500
+                     hover:-translate-y-2 md:hover:translate-y-0 lg:hover:-translate-y-2">
+                    <div
+                        class="icondiv size-[74px] shrink-0 rounded-full bg-[#FBE8ED]/75 border border-[#D6A66F]/70 shadow-[0_0_20px_rgba(168,111,142,0.45)] flex justify-center items-center md:size-[80px] lg:size-[72px] xl:size-[82px] 2xl:size-[90px] transition-all duration-500
+                     group-hover:bg-[#F4D8E4] group-hover:border-[#C5658F] group-hover:shadow-[0_0_14px_rgba(197,101,143,0.65),0_0_28px_rgba(197,101,143,0.35)] group-hover:scale-110">
+                        <i class="fa-regular fa-star text-[35px] md:text-[37px] lg:text-[32px] xl:text-[37px] 2xl:text-[41px] text-[#8B3760] transition-all duration-500
+                         group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)] group-hover:scale-110">
+                        </i>
+                    </div>
+                    <div class="text flex flex-col justify-center items-center md:items-start">
+                        <h2 class="font-['Playfair_Display'] [text-shadow:0_0_11px_rgba(168,111,142,0.54)] text-[40px] md:text-[42px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-semibold text-[#7E214D] leading-none transition-all duration-500
+                        group-hover:scale-110 group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)]">
+                            +10
+                        </h2>
+                        <p class="font-['Playfair_Display'] text-[10px] font-semibold [text-shadow:0_0_11px_rgba(168,111,142,0.54)] uppercase tracking-[0.16em] text-[#5E4350] mt-2 md:font-['DM_Sans'] md:text-[14px] md:font-bold md:normal-case md:tracking-wider md:text-[#7E214D] lg:text-[12px] xl:text-[14px] 2xl:text-[15px] transition-all duration-500
+                         group-hover:scale-110 group-hover:text-[#B64E7B] group-hover:drop-shadow-[0_0_7px_rgba(182,78,123,0.65)]">
+                            Years of Experience
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="hidden md:block lg:hidden absolute z-20 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[#B67882] text-[22px]">
+                ✦
+            </div>
+        </div>
+    </section>
+
+
+    <section
+        class="sec4 w-full h-auto bg-[linear-gradient(to_bottom,#eacdd6_0%,#f0d8df_18%,#f6e1e6_40%,#fbecef_68%,#efdbe7_100%)] pt-40 pb-20 md:pt-32 lg:pt-28 xl:pt-32 2xl:pt-36">
+        <div class="parent w-full h-auto xl:px-20">
+            <div class="content w-full h-fit flex justify-center items-center mb-10">
+                <div class="flex flex-col items-start justify-center gap-3">
+                    <p
+                        class="font-['DM_Sans'] text-[13px] [text-shadow:0_2px_4px_rgba(168,111,142,0.26)] md:text-[12px] lg:text-[13px] text-[#A86F8E] font-semibold uppercase tracking-[0.25em] relative after:absolute after:h-0.5 after:w-7 after:bg-[linear-gradient(to_right,#A86F8E,transparent)] m-auto before:absolute before:h-0.5 before:w-7 before:bg-[linear-gradient(to_left,#A86F8E,transparent)] after:bottom-[9px] before:bottom-[9px] before:right-[155px] after:left-[150px]">
+                        Meet Our Team
+                    </p>
+                    <h2
+                        class="font-['Playfair_Display'] text-[30px] [text-shadow:0_3px_7px_rgba(36,27,39,0.20)] md:text-[38px] lg:text-[46px] font-bold text-[#241B27] text-center">
+                        Our
+                        <span
+                            class="font-['Allura'] text-[43px] md:text-[54px] [text-shadow:0_0_13px_rgba(168,111,142,0.58)] lg:text-[64px] font-normal text-[#A86F8E]">
+                            Creative
+                        </span>
+                        Team
+                    </h2>
+                </div>
+            </div>
+            <div
+                class="cards flex flex-col justify-center items-center w-full h-auto gap-10 px-6 md:flex-row md:flex-wrap md:gap-8 lg:flex-row lg:flex-nowrap lg:gap-5 xl:gap-7 2xl:gap-9">
+                <div
+                    class="card1 relative overflow-hidden w-[390px] h-[250px] md:w-[45%] md:h-[390px] lg:w-[23%] lg:h-[400px] xl:h-[420px] 2xl:h-[440px] bg-[#FFF9F6]/75 rounded-4xl border-[3px] border-white/80 shadow-[0_10px_28px_rgba(98,48,75,0.20)] flex justify-center items-center gap-5 px-5 md:flex-col md:gap-3 md:py-5 group transition-all duration-500
+                     hover:-translate-y-4 hover:scale-[1.02] hover:border-[#B96A8C] hover:shadow-[0_18px_35px_rgba(75,33,66,0.30),0_0_24px_rgba(168,111,142,0.38),0_0_40px_rgba(213,172,114,0.16)]">
+                    <div class="img w-[200px] h-full md:w-full md:h-[190px] lg:h-[180px] xl:h-[200px] flex justify-center items-center duration-500
+                    group-hover:scale-105">
+                        <img alt="" class="w-[190px] md:w-[180px] lg:w-[160px] xl:w-[185px] 2xl:w-[200px] drop-shadow-[0_6px_10px_rgba(75,33,66,0.26)]"
+                            src="images/sec41.png">
+                    </div>
+                    <div class="content leading-7 relative md:w-full md:text-center">
+                        <h2 class="font-['Playfair_Display'] [text-shadow:0_1px_2px_rgba(59,34,48,0.10)] text-[23px] md:text-[22px] lg:text-[20px] xl:text-[25px] 2xl:text-[27px] font-bold text-[#3B2230] transition-all duration-500
+                          group-hover:text-[#9C476E] group-hover:[text-shadow:0_0_7px_rgba(168,111,142,0.42)]">
+                            Emily Carter
+                        </h2>
+                        <h2 class="font-['DM_Sans'] text-[11px] md:text-[10px] [text-shadow:0_0_6px_rgba(180,78,121,0.42)] lg:text-[9px] xl:text-[12px] font-bold uppercase tracking-[0.12em] text-[#B44E79] transition-all duration-500
+                             group-hover:text-[#9569AE] group-hover:[text-shadow:0_0_6px_rgba(183,132,196,0.35)]">
+                            Founder & Event Planner
+                        </h2>
+                        <p
+                            class="font-['DM_Sans'] font-medium leading-[1.5] [text-shadow:0_2px_3px_rgba(103,96,106,0.12)] text-[#67606A] text-[14px] md:text-[13px] lg:text-[12px] xl:text-[15px] tracking-wider md:mt-3">
+                            Turning your vision into unforgettable celebrations.
+                        </p>
+                    </div>
+                    <div class="overlay absolute w-full h-full flex justify-center items-center bg-[linear-gradient(to_bottom,rgba(139,55,96,0.5)_0%,transparent_100%)] opacity-0 transition-opacity duration-300
+                        hover:opacity-100">
+                        <div class="icons flex justify-center items-center gap-5">
+                           <a href="#"> <div
+                                class="insta size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                              hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-instagram text-[23px] text-[#3B2230] transition-all duration-300
+                                 hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                          <a href="#">  <div
+                                class="pinterest size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-pinterest text-[23px] text-[#3B2230] transition-all duration-300
+                                 hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+
+                           <a href="#"> <div
+                                class="linkedin size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                 hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-linkedin-in text-[23px] text-[#3B2230] transition-all duration-300
+                                   hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card2 group relative overflow-hidden w-[390px] h-[250px] md:w-[45%] md:h-[390px] lg:w-[23%] lg:h-[400px] xl:h-[420px] 2xl:h-[440px] bg-[#FFF9F6]/75 rounded-4xl border-[3px] border-white/80 shadow-[0_10px_28px_rgba(98,48,75,0.20)] flex justify-center items-center gap-5 px-5 md:flex-col md:gap-3 md:py-5 transition-all duration-500
+                     hover:-translate-y-4 hover:scale-[1.02] hover:border-[#B96A8C] hover:shadow-[0_18px_35px_rgba(75,33,66,0.30),0_0_24px_rgba(168,111,142,0.38),0_0_40px_rgba(213,172,114,0.16)]">
+                    <div class="img w-[200px] h-full md:w-full md:h-[190px] lg:h-[180px] xl:h-[200px] flex justify-center items-center duration-500
+                     group-hover:scale-105">
+                        <img alt="" class="w-[190px] md:w-[180px] lg:w-[160px] xl:w-[185px] 2xl:w-[200px] drop-shadow-[0_6px_10px_rgba(75,33,66,0.26)]"
+                            src="images/sec42.png">
+                    </div>
+                    <div class="content leading-7 relative md:w-full md:text-center">
+                        <h2 class="font-['Playfair_Display'] [text-shadow:0_1px_2px_rgba(59,34,48,0.10)] text-[23px] md:text-[22px] lg:text-[20px] xl:text-[25px] 2xl:text-[27px] font-bold text-[#3B2230] transition-all duration-500
+                          group-hover:text-[#9C476E] group-hover:[text-shadow:0_0_7px_rgba(168,111,142,0.42)]">
+                            Olivia Bennett
+                        </h2>
+                        <h2 class="font-['DM_Sans'] text-[11px] md:text-[10px] [text-shadow:0_0_6px_rgba(180,78,121,0.42)] lg:text-[9px] xl:text-[12px] font-bold uppercase tracking-[0.12em] text-[#B44E79] transition-all duration-500
+                          group-hover:text-[#9569AE] group-hover:[text-shadow:0_0_6px_rgba(183,132,196,0.35)]">
+                            Creative Director
+                        </h2>
+                        <p
+                            class="font-['DM_Sans'] font-medium leading-[1.5] [text-shadow:0_2px_3px_rgba(103,96,106,0.12)] text-[#67606A] text-[14px] md:text-[13px] lg:text-[12px] xl:text-[15px] tracking-wider md:mt-3">
+                            Bringing ideas to life through design and detail.
+                        </p>
+                    </div>
+                    <div class="overlay absolute w-full h-full flex justify-center items-center bg-[linear-gradient(to_bottom,rgba(139,55,96,0.5)_0%,transparent_100%)] opacity-0 transition-opacity duration-300
+                          hover:opacity-100">
+                        <div class="icons flex justify-center items-center gap-5">
+                            <a href="#"><div
+                                  class="insta size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                     hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-instagram text-[23px] text-[#3B2230] transition-all duration-300
+                                hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                           <a href="#"> <div
+                                class="pinterest size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                 hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-pinterest text-[23px] text-[#3B2230] transition-all duration-300
+                                  hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                           <a href="#"> <div
+                                class="linkedin size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                              hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-linkedin-in text-[23px] text-[#3B2230] transition-all duration-300
+                              hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card3 group relative overflow-hidden w-[390px] h-[250px] md:w-[45%] md:h-[390px] lg:w-[23%] lg:h-[400px] xl:h-[420px] 2xl:h-[440px] bg-[#FFF9F6]/75 rounded-4xl border-[3px] border-white/80 shadow-[0_10px_28px_rgba(98,48,75,0.20)] flex justify-center items-center gap-8 px-5 md:flex-col md:gap-3 md:py-5 transition-all duration-500
+                      hover:-translate-y-4 hover:scale-[1.02] hover:border-[#B96A8C] hover:shadow-[0_18px_35px_rgba(75,33,66,0.30),0_0_24px_rgba(168,111,142,0.38),0_0_40px_rgba(213,172,114,0.16)]">
+                    <div class="img w-[220px] h-full md:w-full md:h-[190px] lg:h-[180px] xl:h-[200px] flex justify-center items-center duration-500
+                     group-hover:scale-105">
+                        <img alt="" class="w-[200px] md:w-[185px] lg:w-[165px] xl:w-[190px] 2xl:w-[205px] drop-shadow-[0_6px_10px_rgba(75,33,66,0.26)]"
+                            src="images/sec43.png">
+                    </div>
+                    <div class="content leading-7 relative md:w-full md:text-center">
+                        <h2 class="font-['Playfair_Display'] [text-shadow:0_1px_2px_rgba(59,34,48,0.10)] text-[23px] md:text-[22px] lg:text-[20px] xl:text-[25px] 2xl:text-[27px] font-bold text-[#3B2230] transition-all duration-500
+                      group-hover:text-[#9C476E] group-hover:[text-shadow:0_0_7px_rgba(168,111,142,0.42)]">
+                            Sophia Williams
+                        </h2>
+                        <h2 class="font-['DM_Sans'] text-[11px] md:text-[10px] lg:text-[9px] [text-shadow:0_0_6px_rgba(180,78,121,0.42)] xl:text-[12px] font-bold uppercase tracking-[0.12em] text-[#B44E79] transition-all duration-500
+                         group-hover:text-[#9569AE] group-hover:[text-shadow:0_0_6px_rgba(183,132,196,0.35)]">
+                            Client Experience Manager
+                        </h2>
+                        <p
+                            class="font-['DM_Sans'] font-medium leading-[1.5] [text-shadow:0_2px_3px_rgba(103,96,106,0.12)] text-[#67606A] text-[14px] md:text-[13px] lg:text-[12px] xl:text-[15px] tracking-wider md:mt-3">
+                            Your journey, our priority from the first idea to the final detail.
+                        </p>
+                    </div>
+                    <div class="overlay absolute w-full h-full flex justify-center items-center bg-[linear-gradient(to_bottom,rgba(139,55,96,0.5)_0%,transparent_100%)] opacity-0 transition-opacity duration-300
+                          hover:opacity-100">
+                        <div class="icons flex justify-center items-center gap-5">
+                          <a href="#">  <div
+                                class="insta size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                  hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-instagram text-[23px] text-[#3B2230] transition-all duration-300
+                                  hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                          <a href="#"> <div 
+                                class="pinterest size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                  hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-pinterest text-[23px] text-[#3B2230] transition-all duration-300
+                                   hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a> 
+                           <a href="#"> <div
+                                class="linkedin size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                   hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-linkedin-in text-[23px] text-[#3B2230] transition-all duration-300
+                                  hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card4 group relative overflow-hidden w-[390px] h-[250px] md:w-[45%] md:h-[390px] lg:w-[23%] lg:h-[400px] xl:h-[420px] 2xl:h-[440px] bg-[#FFF9F6]/75 rounded-4xl border-[3px] border-white/80 shadow-[0_10px_28px_rgba(98,48,75,0.20)] flex justify-center items-center gap-5 px-5 md:flex-col md:gap-3 md:py-5 transition-all duration-500
+                          hover:-translate-y-4 hover:scale-[1.02] hover:border-[#B96A8C] hover:shadow-[0_18px_35px_rgba(75,33,66,0.30),0_0_24px_rgba(168,111,142,0.38),0_0_40px_rgba(213,172,114,0.16)]">
+                    <div class="img w-[200px] h-full md:w-full md:h-[190px] lg:h-[180px] xl:h-[200px] flex justify-center items-center duration-500
+                       group-hover:scale-105">
+                        <img alt="" class="w-[180px] md:w-[175px] lg:w-[155px] xl:w-[180px] 2xl:w-[195px] drop-shadow-[0_6px_10px_rgba(75,33,66,0.26)]"
+                            src="images/sec44.png">
+                    </div>
+                    <div class="content leading-7 relative md:w-full md:text-center">
+                        <h2 class="font-['Playfair_Display'] text-[23px] [text-shadow:0_1px_2px_rgba(59,34,48,0.10)] md:text-[22px] lg:text-[20px] xl:text-[25px] 2xl:text-[27px] font-bold text-[#3B2230] transition-all duration-500
+                      group-hover:text-[#9C476E] group-hover:[text-shadow:0_0_7px_rgba(168,111,142,0.42)]">
+                            Isabella Reed
+                        </h2>
+                        <h2 class="font-['DM_Sans'] text-[10.5px] [text-shadow:0_0_6px_rgba(180,78,121,0.42)] md:text-[10px] lg:text-[9px] xl:text-[12px] font-bold uppercase tracking-[0.12em] text-[#B44E79] transition-all duration-500
+                            group-hover:text-[#9569AE] group-hover:[text-shadow:0_0_6px_rgba(183,132,196,0.35)]">
+                            Styling & Décor Specialist
+                        </h2>
+                        <p
+                            class="font-['DM_Sans'] font-medium leading-[1.5] text-[#67606A] [text-shadow:0_2px_3px_rgba(103,96,106,0.12)] text-[14px] md:text-[13px] lg:text-[12px] xl:text-[15px] tracking-wider md:mt-3">
+                            Creating spaces that feel beautifully you.
+                        </p>
+                    </div>
+                    <div class="overlay absolute w-full h-full flex justify-center items-center bg-[linear-gradient(to_bottom,rgba(139,55,96,0.5)_0%,transparent_100%)] opacity-0 transition-opacity duration-300
+                         hover:opacity-100">
+                        <div class="icons flex justify-center items-center gap-5">
+                           <a href="#"> <div
+                                class="insta size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                 hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-instagram text-[23px] text-[#3B2230] transition-all duration-300
+                                 hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                           <a href="#"> <div
+                                class="pinterest size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                 hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-pinterest text-[23px] text-[#3B2230] transition-all duration-300
+                                  hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                           <a href="#"> <div
+                              class="linkedin size-[50px] rounded-full bg-[#f5dbe3] flex justify-center items-center transition-all duration-300 shadow-[0_5px_15px_rgba(59,34,48,0.28)]
+                                 hover:bg-[#F5DCE7] hover:scale-115 hover:shadow-[0_0_8px_rgba(255,255,255,0.95),0_0_18px_rgba(168,111,142,0.65),0_0_28px_rgba(183,132,196,0.38)]">
+                                <i class="fa-brands fa-linkedin-in text-[23px] text-[#3B2230] transition-all duration-300
+                                 hover:text-[#A86F8E] hover:drop-shadow-[0_0_6px_rgba(168,111,142,0.75)]">
+                                </i>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="relative w-full bg-[url('images/footer.png')] bg-center bg-cover bg-no-repeat">
+        <div
+            class="w-[92%] md:w-[90%] lg:w-[92%] xl:w-[90%] max-w-[1500px] mx-auto pt-16 md:pt-20 lg:pt-24 pb-12 md:pb-16">
+            <div class="w-full flex flex-col lg:flex-row justify-between items-start gap-14 lg:gap-10 xl:gap-16">
+                <div class="w-full lg:w-[48%]">
+                    <div class="content w-full mb-7">
+                        <p
+                            class="font-['DM_Sans'] [text-shadow:0_0_8px_rgba(168,111,142,1)] font-extrabold text-[11px] md:text-[12px] lg:text-[13px] uppercase tracking-[0.25em] text-[#A86F8E] ml-5">
+                            Let's Connect
+                        </p>
+                        <div class="flex items-center mt-1">
+                            <h2
+                                class="font-['Playfair_Display'] [text-shadow:0_3px_7px_rgba(36,27,39,0.20)] text-[38px] sm:text-[42px] md:text-[48px] lg:text-[52px] xl:text-[58px] font-medium text-[#241B27]">
+                                Contact Us
+                            </h2>
+                            <img alt="" class="w-[90px] sm:w-[110px] md:w-[130px] lg:w-[140px] h-fit ml-2 drop-shadow-[0_8px_10px_rgba(75,33,66,0.75)]
+                            transition-all duration-500 hover:scale-110 hover:-translate-y-3 hover:-rotate-[8deg] hover:drop-shadow-[0_0_12px_rgba(168,111,142,0.85)]"
+                                src="images/heartfooter.png">
+                        </div>
+                        <p
+                            class="font-['DM_Sans'] text-[14px] md:text-[15px] lg:text-[15px] xl:text-[16px] font-medium leading-[1.6] text-[#746D77] mt-2 w-full lg:w-[90%]
+                            [text-shadow:0_2px_3px_rgba(75,33,66,0.14)]">
+                            We’d love to hear from you! Tell us about your event
+                            and let’s start creating something unforgettable together.
+                        </p>
+                    </div>
+                    <div
+                        class="form w-full bg-[#f1e0e3]/90 border border-white/80 rounded-[28px]  p-5 md:p-7 lg:p-7 xl:p-8 shadow-[0_12px_32px_rgba(75,33,66,0.42)]">
+                        <form class="w-full flex flex-col gap-4">
+                            <div class="w-full flex flex-col md:flex-row gap-4">
+                                <div class="relative w-full">
+                                    <i
+                                        class="fa-regular fa-user absolute left-4 top-1/2 -translate-y-1/2 text-[#8A4564] text-[16px] drop-shadow-[0_0_7px_rgba(168,111,142,0.65)]">
+                                    </i>
+                                    <input
+                                        class="w-full h-[55px] bg-[#FFF9F6]/60 border border-[#DDBDC9] rounded-[14px] pl-12 pr-4 font-['DM_Sans'] text-[14px] text-[#746D77] outline-none shadow-[0_5px_14px_rgba(75,33,66,0.15)]"
+                                        placeholder="Full Name" type="text">
+                                </div>
+                                <div class="relative w-full">
+                                    <i
+                                        class="fa-regular fa-envelope absolute left-4 top-1/2 -translate-y-1/2 text-[#8A4564] text-[16px] drop-shadow-[0_0_7px_rgba(168,111,142,0.65)]">
+                                    </i>
+                                    <input
+                                        class="w-full h-[55px] bg-[#FFF9F6]/60 border border-[#DDBDC9] rounded-[14px] pl-12 pr-4 font-['DM_Sans'] text-[14px] text-[#746D77] outline-none shadow-[0_5px_14px_rgba(75,33,66,0.15)]"
+                                        placeholder="Email Address" type="email">
+                                </div>
+                            </div>
+                            <div class="relative w-full">
+                                <i
+                                    class="fa-solid fa-phone absolute left-4 top-1/2 -translate-y-1/2 text-[#8A4564] text-[16px] drop-shadow-[0_0_7px_rgba(168,111,142,0.65)]">
+                                </i>
+                                <input
+                                    class="w-full h-[55px] bg-[#FFF9F6]/60 border border-[#DDBDC9] rounded-[14px] pl-12 pr-4 font-['DM_Sans'] text-[14px] text-[#746D77] outline-none shadow-[0_5px_14px_rgba(75,33,66,0.15)]"
+                                    placeholder="Phone Number" type="tel">
+                            </div>
+                            <div class="relative w-full">
+                                <i
+                                    class="fa-regular fa-calendar-days absolute left-4 top-1/2 -translate-y-1/2 text-[#8A4564] text-[16px] drop-shadow-[0_0_7px_rgba(168,111,142,0.65)]">
+                                </i>
+                                <input
+                                    class="w-full h-[55px] bg-[#FFF9F6]/60 border border-[#DDBDC9] rounded-[14px] pl-12 pr-4 font-['DM_Sans'] text-[14px] text-[#746D77] outline-none shadow-[0_5px_14px_rgba(75,33,66,0.15)]"
+                                    placeholder="Event Date (Optional)" type="date">
+                            </div>
+                            <div class="relative w-full">
+                                <i class="fa-regular fa-comment-dots absolute left-4 top-5 text-[#8A4564] text-[16px] drop-shadow-[0_0_7px_rgba(168,111,142,0.65)]">
+                                </i>
+                                <textarea
+                                    class="w-full h-[130px] md:h-[145px] bg-[#FFF9F6]/60 border border-[#DDBDC9] rounded-[14px] pl-12 pr-4 pt-4 font-['DM_Sans'] text-[14px] text-[#746D77] outline-none shadow-[0_5px_14px_rgba(75,33,66,0.15)]"
+                                    placeholder="Your message..." ></textarea>
+                            </div>
+                            <button
+                                class="group w-full cursor-pointer h-[55px] bg-[linear-gradient(to_right,#98506F,#cd7c9b)] rounded-[14px] tracking-wide text-white font-['DM_Sans'] text-[15px] font-semibold shadow-[0_0_22px_rgba(168,111,142,0.52)]
+                                hover:-translate-y-1 hover:scale-[1.02] hover:tracking-widest hover:shadow-[0_10px_22px_rgba(138,69,100,0.32),0_0_20px_rgba(168,111,142,0.35)] duration-700">
+                                Send Message
+                                <span class="ml-3 inline-block transition-all duration-500 group-hover:translate-x-2">
+                                    →
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-[48%]">
+                    <div class="relative">
+                        <h2
+                            class="font-['Playfair_Display'] tracking-wider text-[28px] md:text-[34px] lg:text-[36px] xl:text-[40px] font-semibold text-[#241B27] [text-shadow:0_3px_7px_rgba(36,27,39,0.20)]">
+                            Contact Information
+                        </h2>
+                        <div class="w-[45px] h-[2px] bg-[#A86F8E] mt-2">
+                        </div>
+                    </div>
+
+                    <div class="relative mt-7">
+                        <div class="flex flex-col gap-5">
+                            <div class="flex items-center gap-4 hover:translate-x-3 duration-500">
+                                <div
+                                    class="size-[45px] md:size-[50px] shrink-0 rounded-full bg-[#F3E1E8] flex justify-center items-center shadow-[0_0_18px_rgba(168,111,142,0.45)]
+                                    ">
+                                    <i class="fa-solid fa-location-dot text-[#8A4564] text-[17px]">
+                                    </i>
+                                </div>
+                                <div>
+                                    <h3
+                                        class="font-['DM_Sans'] tracking-wider [text-shadow:0_2px_3px_rgba(59,34,48,0.16)] text-[12px] md:text-[13px] font-semibold text-[#3B2230]">
+                                        Our Location
+                                    </h3>
+                                    <p
+                                        class="font-['DM_Sans'] tracking-wider [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[12px] md:text-[13px] xl:text-[14px] text-[#746D77]">
+                                        123 Blossom Street, New York, USA
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="flex items-center gap-4 hover:translate-x-3 duration-500">
+                                <div
+                                    class="size-[45px] md:size-[50px] shrink-0 rounded-full bg-[#F3E1E8] flex justify-center items-center shadow-[0_0_18px_rgba(168,111,142,0.45)]">
+                                    <i class="fa-solid fa-phone text-[#8A4564] text-[17px]">
+                                    </i>
+                                </div>
+                                <div>
+                                    <h3
+                                        class="font-['DM_Sans'] tracking-wider [text-shadow:0_2px_3px_rgba(59,34,48,0.16)] text-[12px] md:text-[13px] font-semibold text-[#3B2230]">
+                                        Call Us
+                                    </h3>
+                                    <p
+                                        class="font-['DM_Sans'] [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[12px] md:text-[13px] xl:text-[14px] text-[#746D77]">
+                                        +1 212 555 7890
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="flex items-center gap-4 hover:translate-x-3 duration-500">
+                                <div
+                                    class="size-[45px] md:size-[50px] shrink-0 rounded-full bg-[#F3E1E8] flex justify-center items-center shadow-[0_0_18px_rgba(168,111,142,0.45)]">
+                                    <i class="fa-regular fa-envelope text-[#8A4564] text-[17px]">
+                                    </i>
+                                </div>
+                                <div>
+                                    <h3
+                                        class="font-['DM_Sans'] tracking-wide [text-shadow:0_2px_3px_rgba(59,34,48,0.16)] text-[12px] md:text-[13px] font-semibold text-[#3B2230]">
+                                        Email Us
+                                    </h3>
+                                    <p
+                                        class="font-['DM_Sans'] tracking-wider [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[12px] md:text-[13px] xl:text-[14px] text-[#746D77]">
+                                        hello@lunaevents.com
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="flex items-center gap-4 hover:translate-x-3 duration-500">
+                                <div
+                                    class="size-[45px] md:size-[50px] shrink-0 rounded-full bg-[#F3E1E8] flex justify-center items-center shadow-[0_0_18px_rgba(168,111,142,0.45)]">
+                                    <i class="fa-regular fa-clock text-[#8A4564] text-[17px]">
+                                    </i>
+                                </div>
+                                <div>
+                                    <h3
+                                        class="font-['DM_Sans'] tracking-wide [text-shadow:0_2px_3px_rgba(59,34,48,0.16)] text-[12px] md:text-[13px] font-semibold text-[#3B2230]">
+                                        Working Hours
+                                    </h3>
+                                    <p
+                                        class="font-['DM_Sans'] tracking-wider [text-shadow:0_2px_3px_rgba(75,33,66,0.12)] text-[12px] md:text-[13px] xl:text-[14px] text-[#746D77]">
+                                        Mon - Sat: 9:00 AM – 7:00 PM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <img alt=""
+                            class="hidden md:block absolute right-0 top-0 w-[135px] lg:w-[145px] xl:w-[170px] opacity-70
+                            drop-shadow-[0_8px_10px_rgba(75,33,66,0.75)]
+                            hover:opacity-100 hover:-translate-x-3 hover:-translate-y-2 hover:rotate-[-6deg] hover:scale-110 hover:drop-shadow-[0_0_12px_rgba(168,111,142,0.70)] duration-700"
+                            src="images/doodlefooter.png">
+                    </div>
+
+
+                    <div
+                        class="w-full h-[240px] md:h-[290px] lg:h-[280px] xl:h-[320px] mt-8 rounded-[24px] overflow-hidden border-8 border-white/80 shadow-[0_12px_30px_rgba(75,33,66,0.22)]
+                        transition-all duration-700 hover:-translate-y-3 hover:scale-[1.01] hover:border-[#E1B9C9] hover:shadow-[0_18px_36px_rgba(75,33,66,0.28),0_0_25px_rgba(168,111,142,0.28)]">
+                        <img alt="" src="images/map.png" class="w-full h-full transition-all duration-700 hover:scale-105 object-cover cursor-pointer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w-full border-t border-[#DDBFCB]/80 bg-[#FFF9F6]/35">
+            <div
+                class="w-[92%] md:w-[90%] xl:w-[90%] max-w-[1500px] mx-auto py-6 flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="flex flex-col sm:flex-row items-center gap-2 sm:gap-5">
+                    <img alt="Luna Events" class="w-[145px] md:w-[155px] lg:w-[170px]
+                    drop-shadow-[0_7px_9px_rgba(75,33,66,0.45)] transition-all duration-500 hover:-translate-y-2 hover:scale-110 hover:rotate-[2deg] hover:drop-shadow-[0_0_13px_rgba(213,172,114,0.85)]" src="images/logo.png">
+                    <p
+                        class="font-['Playfair_Display'] font-bold text-[12px] tracking-wider md:text-[13px] lg:text-[14px] text-[#683f56] text-center sm:text-left
+                        [text-shadow:0_0_7px_rgba(168,111,142,0.55)]">
+                        More Than Events
+                        <br />
+                        Beautiful Memories
+                    </p>
+                </div>
+
+
+                <div class="flex items-center gap-3">
+                    <div class=" group size-[40px] cursor-pointer rounded-full bg-[#F0DDE5] flex justify-center items-center
+                    shadow-[0_6px_16px_rgba(138,69,100,0.26)] border-[1px] border-[#8a456461]
+                    transition-all duration-400 hover:-translate-y-2 hover:scale-115
+                    hover:bg-[#8A4564] hover:rotate-[8deg] hover:shadow-[0_0_12px_rgba(168,111,142,0.65),0_0_24px_rgba(183,132,196,0.32)]">
+                        
+                    <i class="fa-brands fa-instagram text-[#8A4564] text-[14px]  drop-shadow-[0_0_6px_rgba(168,111,142,0.65)]
+                        transition-all duration-400 group-hover:text-white group-hover:scale-110
+                        group-hover:-rotate-[8deg] group-hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.80)]">
+                        </i>
+
+                    </div>
+                    <div class="group size-[40px] cursor-pointer rounded-full bg-[#F0DDE5] flex justify-center items-center
+                    shadow-[0_6px_16px_rgba(138,69,100,0.26)] border-[1px] border-[#8a456461]
+                        transition-all duration-400 hover:-translate-y-2 hover:scale-115
+                    hover:bg-[#8A4564] hover:rotate-[8deg] hover:shadow-[0_0_12px_rgba(168,111,142,0.65),0_0_24px_rgba(183,132,196,0.32)]">
+                       
+                    <i class="fa-brands fa-facebook-f text-[#8A4564] text-[14px]
+                        drop-shadow-[0_0_6px_rgba(168,111,142,0.65)]
+                        transition-all duration-400 group-hover:text-white group-hover:scale-110
+                        group-hover:-rotate-[8deg] group-hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.80)]">
+                        </i>
+
+                    </div>
+                    <div class="group size-[40px] cursor-pointer rounded-full bg-[#F0DDE5] flex justify-center items-center
+                    shadow-[0_6px_16px_rgba(138,69,100,0.26)] border-[1px] border-[#8a456461]
+                    transition-all duration-400 hover:-translate-y-2 hover:scale-115
+                    hover:bg-[#8A4564] hover:rotate-[8deg] hover:shadow-[0_0_12px_rgba(168,111,142,0.65),0_0_24px_rgba(183,132,196,0.32)]">
+                        <i class="fa-brands fa-pinterest-p text-[#8A4564] text-[14px]
+                        drop-shadow-[0_0_6px_rgba(168,111,142,0.65)]
+                        transition-all duration-400 group-hover:text-white group-hover:scale-110
+                        group-hover:-rotate-[8deg] group-hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.80)]">
+                        </i>
+                    </div>
+                    <div class=" group size-[40px] cursor-pointer rounded-full bg-[#F0DDE5] flex justify-center items-center
+                    shadow-[0_6px_16px_rgba(138,69,100,0.26)] border-[1px] border-[#8a456461]
+                    transition-all duration-400 hover:-translate-y-2 hover:scale-115
+                    hover:bg-[#8A4564] hover:rotate-[8deg] hover:shadow-[0_0_12px_rgba(168,111,142,0.65),0_0_24px_rgba(183,132,196,0.32)]">
+                        <i class="fa-brands fa-tiktok text-[#8A4564] text-[14px]
+                        drop-shadow-[0_0_6px_rgba(168,111,142,0.65)]
+                        transition-all duration-400 group-hover:text-white group-hover:scale-110
+                        group-hover:-rotate-[8deg] group-hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.80)]">
+                        </i>
+                    </div>
+                    <div class="group size-[40px] cursor-pointer rounded-full bg-[#F0DDE5] flex justify-center items-center
+                    shadow-[0_6px_16px_rgba(138,69,100,0.26)] border-[1px] border-[#8a456461]
+                    transition-all duration-400 hover:-translate-y-2 hover:scale-115
+                    hover:bg-[#8A4564] hover:rotate-[8deg] hover:shadow-[0_0_12px_rgba(168,111,142,0.65),0_0_24px_rgba(183,132,196,0.32)]">
+                        <i class="fa-brands fa-youtube text-[#8A4564] text-[14px]
+                        drop-shadow-[0_0_6px_rgba(168,111,142,0.65)]
+                        transition-all duration-400 group-hover:text-white group-hover:scale-110
+                        group-hover:-rotate-[8deg] group-hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.80)]">
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-[92%] md:w-[90%] max-w-[1500px] mx-auto border-t border-[#DDBFCB]/60 py-4">
+                <p class="font-['DM_Sans'] text-[10px] md:text-[11px] lg:text-[12px] text-[#746D77] text-center">
+                    © 2026 Luna Events. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
